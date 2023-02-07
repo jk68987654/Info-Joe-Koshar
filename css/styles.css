@@ -1,0 +1,143 @@
+/***TAG SELECTORS***/
+
+body {
+  color: #40514e;
+  margin: 0;
+  font-family: "Merriweather", serif;
+  text-align: center;
+}
+
+h1 {
+  color: #495371;
+  font-family: "Over the Rainbow", cursive;
+  font-size: 8rem;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+
+h2 {
+  color: #495371;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #495371;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h4 {
+  color: #495371;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #495371;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #dbdbdb;
+}
+
+/***CLASS SELECTORS***/
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #ccedf1;
+  padding: 5% 5%;
+}
+
+/* Greeting Section */
+
+#greeting {
+  padding: 5% 5%;
+}
+
+.headshot-img {
+  border-radius: 100%;
+  width: 180px;
+  margin-bottom: 5%;
+}
+
+.greeting-intro {
+  margin: 20px 20% 0 20%;
+}
+
+/* Skills Section  */
+
+.skills-title {
+  font-size: 3rem;
+}
+
+#skills {
+  background-color: #e7fbfd;
+  padding: 7% 10%;
+}
+
+.carousel-item {
+  padding: 3% 15%;
+  text-align: left;
+}
+
+.skill-img {
+  float: right;
+  padding: 0 0 2% 7%;
+  width: 30%;
+}
+
+/* Contact Section */
+
+#contact-me {
+  padding: 5% 5%;
+}
+
+.contact-message {
+  margin: 20px 20% 0 20%;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #495371;
+  margin-top: 50px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #e7fbfd;
+  text-decoration: none;
+}
+
+/* Footer Section */
+
+.copyright {
+  font-size: 0.6rem;
+}
+
+#footer {
+  background-color: #e7fbfd;
+  padding: 20px 0 5px 0;
+}
